@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021086E92421F8B0005AA073 /* OderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021086E82421F8B0005AA073 /* OderDetail.swift */; };
+		021086E92421F8B0005AA073 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021086E82421F8B0005AA073 /* OrderDetail.swift */; };
+		3E86EAC524370EA600B91CF0 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E86EAC424370EA600B91CF0 /* OrderRowView.swift */; };
 		53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB726522E1C33C00AA7546 /* AppDelegate.swift */; };
 		53BB726822E1C33C00AA7546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB726722E1C33C00AA7546 /* SceneDelegate.swift */; };
 		53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB726C22E1C33C00AA7546 /* ContentView.swift */; };
@@ -20,7 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		021086E82421F8B0005AA073 /* OderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OderDetail.swift; path = "Tapioca milk tea/OderDetail.swift"; sourceTree = SOURCE_ROOT; };
+		021086E82421F8B0005AA073 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderDetail.swift; path = "Tapioca milk tea/OrderDetail.swift"; sourceTree = SOURCE_ROOT; };
+		3E86EAC424370EA600B91CF0 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		53BB726222E1C33C00AA7546 /* Tapioca milk tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tapioca milk tea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BB726522E1C33C00AA7546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53BB726722E1C33C00AA7546 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +68,8 @@
 			children = (
 				53F05E4A22F3C5A1009E3AA8 /* Data */,
 				53BB726522E1C33C00AA7546 /* AppDelegate.swift */,
-				021086E82421F8B0005AA073 /* OderDetail.swift */,
+				021086E82421F8B0005AA073 /* OrderDetail.swift */,
+				3E86EAC424370EA600B91CF0 /* OrderRowView.swift */,
 				53BB726722E1C33C00AA7546 /* SceneDelegate.swift */,
 				53BB726C22E1C33C00AA7546 /* ContentView.swift */,
 				53BB726E22E1C33E00AA7546 /* Assets.xcassets */,
@@ -167,11 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021086E92421F8B0005AA073 /* OderDetail.swift in Sources */,
+				021086E92421F8B0005AA073 /* OrderDetail.swift in Sources */,
 				53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */,
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
 				53BB726822E1C33C00AA7546 /* SceneDelegate.swift in Sources */,
+				3E86EAC524370EA600B91CF0 /* OrderRowView.swift in Sources */,
 				53F05E4722F326FF009E3AA8 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
