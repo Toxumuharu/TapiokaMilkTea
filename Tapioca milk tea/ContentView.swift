@@ -2,8 +2,23 @@ import SwiftUI
 
 struct ContentView : View {
     
+    @State var showDetails = false
+    
     var body: some View {
-        Text("Hello SwiftUI!")
+        VStack{
+            Button(action:{
+                self.showDetails.toggle()
+            }){
+                Text("show details")
+            }
+            if showDetails{
+                Text("details on the Web!")
+                    .font(.largeTitle)
+                    .lineLimit(nil)
+            }
+        }
+        
+        
     }
 }
 

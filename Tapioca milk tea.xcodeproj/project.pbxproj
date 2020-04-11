@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		021086E92421F8B0005AA073 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021086E82421F8B0005AA073 /* OrderDetail.swift */; };
+		3E2278B3243AAE020004BB07 /* ImageButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2278B2243AAE020004BB07 /* ImageButtonExample.swift */; };
+		3E2278B5243AB4C30004BB07 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2278B4243AB4C30004BB07 /* ToggleExample.swift */; };
+		3E2278B7243ABBD00004BB07 /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2278B6243ABBD00004BB07 /* TextFieldExample.swift */; };
+		3E2278B9243AC04D0004BB07 /* SecureFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2278B8243AC04D0004BB07 /* SecureFieldExample.swift */; };
+		3E2278BB243AD04D0004BB07 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2278BA243AD04D0004BB07 /* SliderExample.swift */; };
+		3E2278BD243B1E750004BB07 /* SliderLabelExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2278BC243B1E750004BB07 /* SliderLabelExample2.swift */; };
+		3E2278BF243B22450004BB07 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2278BE243B22450004BB07 /* PickerExample.swift */; };
 		3E86EAC524370EA600B91CF0 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E86EAC424370EA600B91CF0 /* OrderRowView.swift */; };
 		53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB726522E1C33C00AA7546 /* AppDelegate.swift */; };
 		53BB726822E1C33C00AA7546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB726722E1C33C00AA7546 /* SceneDelegate.swift */; };
@@ -22,6 +29,13 @@
 
 /* Begin PBXFileReference section */
 		021086E82421F8B0005AA073 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderDetail.swift; path = "Tapioca milk tea/OrderDetail.swift"; sourceTree = SOURCE_ROOT; };
+		3E2278B2243AAE020004BB07 /* ImageButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonExample.swift; sourceTree = "<group>"; };
+		3E2278B4243AB4C30004BB07 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
+		3E2278B6243ABBD00004BB07 /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		3E2278B8243AC04D0004BB07 /* SecureFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExample.swift; sourceTree = "<group>"; };
+		3E2278BA243AD04D0004BB07 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
+		3E2278BC243B1E750004BB07 /* SliderLabelExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderLabelExample2.swift; sourceTree = "<group>"; };
+		3E2278BE243B22450004BB07 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 		3E86EAC424370EA600B91CF0 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		53BB726222E1C33C00AA7546 /* Tapioca milk tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tapioca milk tea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BB726522E1C33C00AA7546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +86,13 @@
 				3E86EAC424370EA600B91CF0 /* OrderRowView.swift */,
 				53BB726722E1C33C00AA7546 /* SceneDelegate.swift */,
 				53BB726C22E1C33C00AA7546 /* ContentView.swift */,
+				3E2278B2243AAE020004BB07 /* ImageButtonExample.swift */,
+				3E2278B4243AB4C30004BB07 /* ToggleExample.swift */,
+				3E2278B6243ABBD00004BB07 /* TextFieldExample.swift */,
+				3E2278B8243AC04D0004BB07 /* SecureFieldExample.swift */,
+				3E2278BA243AD04D0004BB07 /* SliderExample.swift */,
+				3E2278BC243B1E750004BB07 /* SliderLabelExample2.swift */,
+				3E2278BE243B22450004BB07 /* PickerExample.swift */,
 				53BB726E22E1C33E00AA7546 /* Assets.xcassets */,
 				53BB727322E1C33E00AA7546 /* LaunchScreen.storyboard */,
 				53BB727622E1C33E00AA7546 /* Info.plist */,
@@ -171,11 +192,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				021086E92421F8B0005AA073 /* OrderDetail.swift in Sources */,
+				3E2278B5243AB4C30004BB07 /* ToggleExample.swift in Sources */,
 				53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */,
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
+				3E2278B7243ABBD00004BB07 /* TextFieldExample.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
 				53BB726822E1C33C00AA7546 /* SceneDelegate.swift in Sources */,
 				3E86EAC524370EA600B91CF0 /* OrderRowView.swift in Sources */,
+				3E2278BF243B22450004BB07 /* PickerExample.swift in Sources */,
+				3E2278B9243AC04D0004BB07 /* SecureFieldExample.swift in Sources */,
+				3E2278BD243B1E750004BB07 /* SliderLabelExample2.swift in Sources */,
+				3E2278BB243AD04D0004BB07 /* SliderExample.swift in Sources */,
+				3E2278B3243AAE020004BB07 /* ImageButtonExample.swift in Sources */,
 				53F05E4722F326FF009E3AA8 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
